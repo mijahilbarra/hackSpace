@@ -61,7 +61,7 @@ server.use(express.static(__dirname + '/public'));
 
 // Cuando exista una petición en el servidor  
 server.get('/',function(req,res){
-	res.render('especialidades.html', { categorias:especialidades, titulo:titulo, persona:persona, amigos:amigos });
+	res.render('especialidades.html', { titulo:titulo, persona:persona, amigos:amigos });
 });
 
 // INICIAR SERVIDOR
