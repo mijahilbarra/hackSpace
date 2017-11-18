@@ -2,29 +2,6 @@
 
 // VARIABLES 
 
-var especialidades = [	
-	{
-		nombre: 'FRONTEND',
-		imagen: 'frontend.png'
-	},
-	{
-		nombre: 'BACKEND',
-		imagen: 'backend.png'
-	},
-	{
-		nombre: 'ELECTRONICA',
-		imagen: 'electronica.png'
-	},
-	{
-		nombre: 'ANDROID',
-		imagen: 'android.png'
-	},
-	{
-		nombre: 'ALGORITMOS',
-		imagen: 'algoritmos.png'
-	},
-];
-
 var titulo = "The Simpson";
 
 var persona = {
